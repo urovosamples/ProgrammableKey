@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:orientation="vertical">
+
+   <Button
+       android:id="@+id/enable_remapkey"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="enable remap key"/>
+    <Button
+        android:id="@+id/disable_remapkey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="disable remap key"/>
+    <Button
+        android:id="@+id/remapScankey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="remap scankey to Enter"/>
+    <Button
+        android:id="@+id/remapVOLUME_DOWNkey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="remap OLUME_DOWNkey start Browser APP"/>
+    <Button
+        android:id="@+id/delremapkey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="del remap scankey to Enter"/>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+   <Button
+       android:id="@+id/exportkey"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:layout_height="wrap_content"
+       android:text="export config"/>
+   <Button
+       android:id="@+id/importkey"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:layout_height="wrap_content"
+       android:text="import config"/>
+  </LinearLayout>
+    <TextView
+        android:id="@+id/eventText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
